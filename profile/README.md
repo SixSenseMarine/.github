@@ -1,4 +1,4 @@
-# **6-Sense Systems**
+# [![Github Repo](https://github.com/6SenseSystems/.github/blob/main/.IMG/LOGO_24.png)](https://github.com/6SenseSystems)**6-Sense Systems**
 <!--
 ## Hi there 👋
 
