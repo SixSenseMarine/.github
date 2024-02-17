@@ -1,4 +1,4 @@
-# **SV Sunny Spells SignalK Network.**
+# **6-Sense Systems**
 <!--
 ## Hi there 👋
 
