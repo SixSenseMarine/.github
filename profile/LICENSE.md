@@ -1,13 +1,34 @@
-# [![Github Repo](https://github.com/6SenseSystems/.github/blob/main/.img/LOGO_24.png)](https://github.com/6SenseSystems)  GM Consolidated Holdings Pty Ltd License Agreement ("License")
+# [![Github Repo](https://github.com/6SenseSystems/.github/blob/main/.img/LOGO_24.png)](https://github.com/6SenseSystems)  GM Consolidated Holdings Pty Ltd License Agreement
 
-This License governs the `Licensee`'s acquisition and use of `IP`. Please read this License carefully before acquiring the `IP` . By aquiring the `IP`, the `Licensee` agrees to the terms of this License.
+This License governs the `Licensee`'s acquisition and use of the `IP`. Please read this License carefully before acquiring the `IP` . By aquiring the `IP`, the `Licensee` agrees to the terms of this License.
+
+**Contents**
+- [  GM Consolidated Holdings Pty Ltd License Agreement](#--gm-consolidated-holdings-pty-ltd-license-agreement)
+  - [Definitions](#definitions)
+  - [Authority of the `Licensee` to Act](#authority-of-the-licensee-to-act)
+  - [License](#license)
+    - [License Grant](#license-grant)
+    - [Non-exclusive](#non-exclusive)
+    - [Termination](#termination)
+    - [Governing Law](#governing-law)
+  - [Non-Disclosure Agreement](#non-disclosure-agreement)
+    - [Non-Disclosure](#non-disclosure)
+    - [Exceptions](#exceptions)
+    - [Return of Information](#return-of-information)
+  - [Intellectual Property and Ownership](#intellectual-property-and-ownership)
+    - [Ownership of Intellectual Property](#ownership-of-intellectual-property)
+    - [Assignment of Intellectual Property](#assignment-of-intellectual-property)
+    - [Scope of Assignment](#scope-of-assignment)
+    - [Representations and Warranties](#representations-and-warranties)
+    - [Assistance and Cooperation](#assistance-and-cooperation)
+  - [Entire Agreement](#entire-agreement)
 
 ## Definitions
 
 * *Confidential Information* - any and all information and `IP` disclosed by the `Licensor` to the `Licensee`, whether orally, in writing, or in any other form, that is designated as confidential or would be reasonably understood to be confidential given the nature of the information and the circumstances of disclosure. `Confidential Information` may include, but is not limited to, business plans, financial information, trade secrets, customer lists, technical data, code repositories, product prototypes and proprietary know-how.
 * *IP* - software, hardware and any and all intellectual property, including but not limited to inventions, patents, trademarks, copyrights, trade secrets, and any 
 related rights or assets (collectively, the "IP") acquired directly from the `Licensor` or indirectly through a `Reseller` or any other third party.
-* *Licensor* - GM Consolidated Holdings Pty Ltd.
+* *Licensor* - GM Consolidated Holdings Pty Ltd, a private company incorporated in Australia.
 * *Licensee* - person or legal entity acquiring the `IP`.
 * *Reseller* - a `Licensor` authorized reseller, distributor or supplier.
 
@@ -42,10 +63,6 @@ This License is effective from the date the `Licensee` first acquires the `IP` a
 ### Governing Law
 
 This License, and any dispute arising out of or in connection with this License, shall be governed by and construed in accordance with the laws of Australia, without regard to its conflicts of law principles.
-
-### Entire Agreement
-
-This License constitutes the entire understanding and agreement between the parties with respect to the subject matter hereof and supersedes all prior or contemporaneous agreements, negotiations, representations, and understandings, whether written or oral.
 
 ## Non-Disclosure Agreement
 
@@ -86,3 +103,7 @@ Licensee represents and warrants that: (a) `Licensee` is the sole owner of the `
 ### Assistance and Cooperation
 
 The `Licensee` agrees to execute any documents and take any actions reasonably necessary or requested by the `Licensor` to perfect or enforce the Licensor's rights in the assigned `IP`, including but not limited to providing testimony, signing patent applications, and assisting in the prosecution or defense of legal proceedings.
+
+## Entire Agreement
+
+This License constitutes the entire understanding and agreement between the parties with respect to the subject matter hereof and supersedes all prior or contemporaneous agreements, negotiations, representations, and understandings, whether written or oral.
