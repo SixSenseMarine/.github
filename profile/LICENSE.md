@@ -68,7 +68,7 @@ This License, and any dispute arising out of or in connection with this License,
 
 ### Non-Disclosure
 
-The `Licensee` agrees to hold all `Confidential Information` in strict confidence and not to disclose or reveal such `Confidential Information` to any third party without the prior written consent of the Licensor. The Receiving Party shall use the `Confidential Information` solely for the purpose of evaluating a potential business partnership between the `Licensor` and `Licensee`, and shall take all reasonable precautions to prevent unauthorized access, disclosure, or use of the `Confidential Information` for any other purpose.
+The `Licensee` agrees to hold all `Confidential Information` in strict confidence and not to disclose or reveal such `Confidential Information` to any third party without the prior written consent of the Licensor. The `Licensee` shall use the `Confidential Information` solely for the purpose of evaluating a potential business partnership between the `Licensor` and `Licensee`, and shall take all reasonable precautions to prevent unauthorized access, disclosure, or use of the `Confidential Information` for any other purpose.
 
 ### Exceptions
 
@@ -90,7 +90,7 @@ The `Licensor` shall at all times retain ownership of the `IP` as originally dow
 
 ### Assignment of Intellectual Property
 
-The `Licensee` hereby assigns, transfers, and conveys to the `Licensor` all right, title, and interest in `IP` created, developed, or discovered by `Licensee` during the term of the License. 
+The `Licensee` hereby assigns, transfers, and conveys to the `Licensor` all rights, title, and interest in `IP` created, developed, or discovered by `Licensee` during the term of the License. 
 
 ### Scope of Assignment
 
