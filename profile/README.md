@@ -10,8 +10,7 @@ Contents
 
 All 6-Sense Systems repositories are Copyright 2024, *GM Consolidated Holdings Pty Ltd*, ALL RIGHTS RESERVED, and subject to the [license terms](https://github.com/6SenseSystems/.github/blob/main/LICENSE) unless expressly noted otherwise.
 
-*GM Consolidated Holdings Pty Ltd* retains ownership of the contents of this repository and the copyright, and other intellectual property 
-rights of whatever nature, including any modifications made to the repository contents. 
+*GM Consolidated Holdings Pty Ltd* retains ownership of the contents of this repository and the copyright, and other intellectual property rights of whatever nature, including any modifications made to the repository contents. 
 
 ## References
 * [PioTemplate repo on github](https://github.com/6SenseSystems/PioTemplate)
