@@ -98,7 +98,7 @@ The assignment of `IP` under this License includes all present and future rights
 
 ### Representations and Warranties
 
-Licensee represents and warrants that: (a) `Licensee` is the sole owner of the `IP` being assigned, (b) `Licensee` has full power and authority to make this assignment, and (c) `Licensee` has not granted any rights or licenses to the `IP` to any third party that would conflict with the rights being assigned to Assignee under this Agreement.
+`Licensee` represents and warrants that: (a) `Licensee` is the sole owner of the `IP` being assigned, (b) `Licensee` has full power and authority to make this assignment, and (c) `Licensee` has not granted any rights or licenses to the `IP` to any third party that would conflict with the rights being assigned to `Licensor` under this Agreement.
 
 ### Assistance and Cooperation
 
