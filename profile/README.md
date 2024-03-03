@@ -21,23 +21,26 @@ Contents
 
 ## Library Commit Checklist
 
-  1. `README.md` updated:
+  1. All decleration (.h) files have `header guards` consistent with the file name. Format to use is `MY_FILE_NAME_H_`.
+  2. All debug flags have been commented out.
+  3. All public methods and functions have been fully documented with `doxygen` tags.
+  4. `README.md` updated:
      1. Description.
      2. No dead links.
      3. License terms consistent.
      4. Usage tested and updated.
-  2. `CHANGELOG.md` updated:
+  5. `CHANGELOG.md` updated:
      1. New version 
      2. Version heading include a title, e.g. "Stable release".
-  3. `library.json` updated:
+  6. `library.json` updated:
      1. `version` number updated, consistent with `CHANGELOG.md`.
      2. `description` is still correct.
      3. `keywords` are still correct.
      4. `repository` git link is correct and works.
      5. `dependencies` have been updated, consistent with `platformio.ini`.
      6. No license.
-  4. Examples placed in the `/lib/YourLibrary/examples/` folder as `ino` files.
-  5. Tests placed in the `/tests/` folder.
+  7. Examples placed in the `/lib/YourLibrary/examples/` folder as `ino` files.
+  8. Tests placed in the `/tests/` folder.
 
 ## License
 
