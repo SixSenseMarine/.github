@@ -13,7 +13,7 @@ Contents
 
 ## Developer Guidelines
 
-The 6SenseSystems repositories are not open-source but subject to the [license terms](https://github.com/6SenseSystems/.github/blob/main/profile/LICENSE.md) unless expressly noted otherwise. *Please secure the IP that you download and do not share it unless permission has been obtained.*
+The [6-Sense Systems](https://github.com/6SenseSystems) repositories are not open-source but subject to the [license terms](https://github.com/6SenseSystems/.github/blob/main/profile/LICENSE.md) unless expressly noted otherwise. *Please secure the IP that you download and do not share it unless permission has been obtained.*
 
 All these repositories form part of commercial products and development of the codebase must contribute towards the commercial objectives and the feature roadmap of the [6-Sense Systems](https://github.com/6SenseSystems) product manager(s). Pull requests will only be considered if they are on the approved product backlog. *Before forking any repository and starting work on it, approval must be obtained from the administrator for the new features or changes.*
 
@@ -51,7 +51,7 @@ The following naming conventions are used:
      1. have been fully documented with `doxygen` tags.
      2. Have `virtual` in front of the definition.
   5. Ensure all classes have a virtual destructor and that the implementation deletes any FreeRTOS tasks that were created.
-  6. `README.md` updated:
+  6. Ensure the `README.md` has been updated:
      1. Description.
      2. No dead links.
      3. License terms consistent.
@@ -121,9 +121,9 @@ A sample class declaration is shown below:
 /// implement the @ref Device interface
 #include <Device.h>
 
-/// use the @ref SixSense namespace
-using namespace SixSense;
-
+/// All objects must exist in the @ref SixSense namespace, except extension 
+/// methods.
+namespace SixSense{
 
 /// @brief Inherit from Device and implement the pure virtual 
 /// methods.
@@ -170,6 +170,7 @@ public:
 
 };
 
+} // end SixSense namespace
 #endif 
 
 ```
