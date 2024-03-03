@@ -34,7 +34,7 @@ The following naming conventions are used:
 * Use [`camelCase`](https://www.freecodecamp.org/news/programming-naming-conventions-explained/) for all public scope functions and variables.
 * Use underscore-prefixed [`_camelCase`](https://www.freecodecamp.org/news/programming-naming-conventions-explained/) for all private and protected scope functions and variables.
 * Use [`snake_case_t`](https://www.freecodecamp.org/news/programming-naming-conventions-explained/) for type definitions, including the `_t` at the end. 
-* Use `SCREAMING_SNAKE_CASE` for preprocessor directives/defines, enmum values and enum titles.
+* Use `SCREAMING_SNAKE_CASE` for preprocessor directives/defines, enum values and enum titles.
 
 **Code Documentation**
 
