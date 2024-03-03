@@ -27,23 +27,24 @@ Contents
   4. All public / protected methods and functions:  
      1. have been fully documented with `doxygen` tags.
      2. Have `virtual` in front of the definition.
-  5. `README.md` updated:
+  5. Ensure all classes have a virtual destructor and that the implementation deletes any FreeRTOS tasks that were created.
+  6. `README.md` updated:
      1. Description.
      2. No dead links.
      3. License terms consistent.
      4. Usage tested and updated.
-  6. `CHANGELOG.md` updated:
+  7. `CHANGELOG.md` updated:
      1. New version 
      2. Version heading include a title, e.g. "Stable release".
-  7. `library.json` updated:
+  8. `library.json` updated:
      1. `version` number updated, consistent with `CHANGELOG.md`.
      2. `description` is still correct.
      3. `keywords` are still correct.
      4. `repository` git link is correct and works.
      5. `dependencies` have been updated, consistent with `platformio.ini`.
      6. No license.
-  8.  Examples placed in the `/lib/YourLibrary/examples/` folder as `ino` files.
-  9.  Tests placed in the `/tests/` folder.
+  9.  Examples placed in the `/lib/YourLibrary/examples/` folder as `ino` files.
+  10. Tests placed in the `/tests/` folder.
 
 ## License
 
