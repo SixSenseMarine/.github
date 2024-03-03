@@ -22,9 +22,10 @@ Contents
 
 ## Pre-release Checklist
 
-  1. All decleration (.h) files have `header guards` consistent with the file name. Format to use is `MY_FILE_NAME_H_`.
-  3. Check all debug flags have been commented out.
-  4. All public / protected methods and functions:  
+  1. Do all decleration (.h) files have `header guards` consistent with the file name. Format to use is `MY_FILE_NAME_H_`?
+  2. Do all files have a metadata block at the top with `@file`, `@mainpage`, `intro_sec_Introduction`, `author` and `license` populated?
+  3. Have all debug flags been commented out?
+  4. Check all public / protected methods and functions:  
      1. have been fully documented with `doxygen` tags.
      2. Have `virtual` in front of the definition.
   5. Ensure all classes have a virtual destructor and that the implementation deletes any FreeRTOS tasks that were created.
