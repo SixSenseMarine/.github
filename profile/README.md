@@ -12,6 +12,7 @@ Contents
 
   1. `platformio.ini` has [https://github.com/6SenseSystems/Device.git](https://github.com/6SenseSystems/Device.git) in the `lib_deps` section.
   2. Run a `Full clean` to rebuild the `/pio/libdeps/` folders.
+  2. Do not add `#include <Arduino.h>` to your header files.  It is included by the `Device.h` header file.
   3. Add `SixSense` namespace around all classes, structs and enums.
   4. Add `static String toString(your_enum_t enumVal)` extension functions to all `enum` objects but place them in the `ext` namespace.
   5. Add `DeviceConfiguration` class for the `Device`.
@@ -22,25 +23,27 @@ Contents
 ## Library Commit Checklist
 
   1. All decleration (.h) files have `header guards` consistent with the file name. Format to use is `MY_FILE_NAME_H_`.
-  2. All debug flags have been commented out.
-  3. All public methods and functions have been fully documented with `doxygen` tags.
-  4. `README.md` updated:
+  3. Check all debug flags have been commented out.
+  4. All public / protected methods and functions:  
+     1. have been fully documented with `doxygen` tags.
+     2. Have `virtual` in front of the definition.
+  5. `README.md` updated:
      1. Description.
      2. No dead links.
      3. License terms consistent.
      4. Usage tested and updated.
-  5. `CHANGELOG.md` updated:
+  6. `CHANGELOG.md` updated:
      1. New version 
      2. Version heading include a title, e.g. "Stable release".
-  6. `library.json` updated:
+  7. `library.json` updated:
      1. `version` number updated, consistent with `CHANGELOG.md`.
      2. `description` is still correct.
      3. `keywords` are still correct.
      4. `repository` git link is correct and works.
      5. `dependencies` have been updated, consistent with `platformio.ini`.
      6. No license.
-  7. Examples placed in the `/lib/YourLibrary/examples/` folder as `ino` files.
-  8. Tests placed in the `/tests/` folder.
+  8.  Examples placed in the `/lib/YourLibrary/examples/` folder as `ino` files.
+  9.  Tests placed in the `/tests/` folder.
 
 ## License
 
