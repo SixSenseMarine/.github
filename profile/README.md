@@ -4,10 +4,15 @@
 Contents
 - [  **6-Sense Systems**](#--6-sense-systems)
   - [Developer Guidelines](#developer-guidelines)
-    - [Style Guide](#style-guide)
+  - [Style Guide](#style-guide)
+    - [Folders and Files](#folders-and-files)
+    - [Namespaces](#namespaces)
+    - [Naming Conventions](#naming-conventions)
+    - [Code Documentation](#code-documentation)
+  - [Checklists](#checklists)
     - [Pull-request Checklist](#pull-request-checklist)
     - [Device Library Checklist](#device-library-checklist)
-    - [Code Example](#code-example)
+  - [Code Example](#code-example)
   - [License](#license)
   - [References](#references)
 
@@ -17,13 +22,13 @@ The [6-Sense Systems](https://github.com/6SenseSystems) repositories are not ope
 
 All these repositories form part of commercial products and development of the codebase must contribute towards the commercial objectives and the feature roadmap of the [6-Sense Systems](https://github.com/6SenseSystems) product manager(s). Pull requests will only be considered if they are on the approved product backlog. *Before forking any repository and starting work on it, approval must be obtained from the administrator for the new features or changes.*
 
-Contributors to the [6-Sense Systems](https://github.com/6SenseSystems) codebase should follow these guidelines to ensure that the codebase remains consistent. Please use the checklists below before commening work as they will be applied during review of all pull requests.
+Contributors to the [6-Sense Systems](https://github.com/6SenseSystems) codebase should follow these guidelines to ensure that the codebase remains consistent. 
 
-### Style Guide
+## Style Guide
 
 The style guidelines below should be implemented. An example of code that conforms to these guidelines is shown [below](#code-example).
 
-**Folders and Files**
+### Folders and Files
 
 The following guidelines must be followed in setting up a project or creating new code files:
 
@@ -31,11 +36,11 @@ The following guidelines must be followed in setting up a project or creating ne
 * All classes must have seperate declaration files in the `/lib/MyLibrary/include/` folder with the definition in the `/lib/MyLibrary/src/` folder.
 * Each class, struct and enum must have its own declaration file (`MyClass.h`) and a definition file (`MyClass.cpp`) for implentation.
 
-**Namespaces**
+### Namespaces
 
 All classes, structs, enums and global/static functions must be wrapped in the `SixSense` namespace. Extension functions must be added to the `ext` namespace.
 
-**Naming Conventions**
+### Naming Conventions
 
 The following naming conventions are used:
 * Use [`PascalCase`](https://www.freecodecamp.org/news/programming-naming-conventions-explained/) for all class and struct names.
@@ -44,11 +49,15 @@ The following naming conventions are used:
 * Use [`snake_case_t`](https://www.freecodecamp.org/news/programming-naming-conventions-explained/) for type definitions, including the `_t` at the end. 
 * Use `SCREAMING_SNAKE_CASE` for preprocessor directives/defines, enum values and enum titles.
 
-**Code Documentation**
+### Code Documentation
 
 * Code must be fully documented in [doxygen](https://www.doxygen.nl/) compatible style to allow generation of API documentation.
 * Versioning follows the [Calendar Versioning](https://calver.org/). The `CHANGELOG.md` must be maintained and shorthand dot points on code changes must be added for every version. Contributors may not use release version numbers (e.g. `1.0.1`, or `1.0.1+12`) but should use the pre-release post script, e.g. `1.0.1-3`.
 * Version numbers must always be updated in the `library.json` file.
+
+## Checklists
+
+Please use the checklists below before commening work as they will be applied during review of all pull requests.
 
 ### Pull-request Checklist
 
@@ -92,7 +101,7 @@ All libraries that provide an interface with another device and/or peripheral sh
      2. `DeviceConfiguration * configuration()` getter.
 
 
-### Code Example
+## Code Example
 
 
 A sample class declaration is shown below:
