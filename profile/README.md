@@ -3,12 +3,12 @@
 
 Contents
 - [  **6-Sense Systems**](#--6-sense-systems)
-  - [Device Library Re-factor Checklist](#device-library-re-factor-checklist)
+  - [Device Library Checklist](#device-library-checklist)
   - [Library Commit Checklist](#library-commit-checklist)
   - [License](#license)
   - [References](#references)
 
-## Device Library Re-factor Checklist
+## Device Library Checklist
 
   1. Add `SixSense` namespace around all classes, structs and enums.
   2. Add `static String toString(your_enum_t enumVal)` extension functions to all `enum` objects but place them in the `ext` namespace.
@@ -31,6 +31,8 @@ Contents
      1. Version number.
      2. Dependencies.
      3. No license.
+  4. Examples placed in the `/lib/YourLibrary/examples/` folder as `ino` files.
+  5. Tests placed in the `/tests/` folder.
 
 ## License
 
