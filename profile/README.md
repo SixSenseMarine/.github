@@ -7,7 +7,7 @@ Contents
     - [Style Guide](#style-guide)
     - [Pull-request Checklist](#pull-request-checklist)
     - [Device Library Checklist](#device-library-checklist)
-  - [Code Example](#code-example)
+    - [Code Example](#code-example)
   - [License](#license)
   - [References](#references)
 
@@ -22,6 +22,14 @@ Contributors to the [6-Sense Systems](https://github.com/6SenseSystems) codebase
 ### Style Guide
 
 The style guidelines below should be implemented. An example of code that conforms to these guidelines is shown [below](#code-example).
+
+**Folders and Files**
+
+The following guidelines must be followed in setting up a project or creating new code files:
+
+* The [PlatformIO](https://platformio.org/) project structure must be used for all libraries. When starting a new library, us the 6-Sense Systems [PioTemplate.h](https://github.com/6SenseSystems/PioTemplate/blob/main/lib/PioTemplate/include/PioTemplate.h).
+* All classes must have seperate declaration files in the `/lib/MyLibrary/include/` folder with the definition in the `/lib/MyLibrary/src/` folder.
+* Each class, struct and enum must have its own declaration file (`MyClass.h`) and a definition file (`MyClass.cpp`) for implentation.
 
 **Namespaces**
 
@@ -84,7 +92,7 @@ All libraries that provide an interface with another device and/or peripheral sh
      2. `DeviceConfiguration * configuration()` getter.
 
 
-## Code Example
+### Code Example
 
 
 A sample class declaration is shown below:
