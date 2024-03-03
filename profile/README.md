@@ -52,7 +52,7 @@ The following naming conventions are used:
      2. have `virtual` in front of the definition.
   5. Ensure all classes have a virtual destructor and that the implementation deletes any `FreeRTOS` tasks that were created.
   6. Ensure the `README.md` has been updated:
-     1. is the `Description` still valied?
+     1. is the `Description` still valid?
      2. Check for dead links.
      3. Check the `License` terms are correct and consistent.
      4. Make sure the `Usage` is tested and updated.
