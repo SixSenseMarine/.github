@@ -4,7 +4,7 @@
 Contents
 - [  **6-Sense Systems**](#--6-sense-systems)
   - [Device Library Checklist](#device-library-checklist)
-  - [Library Commit Checklist](#library-commit-checklist)
+  - [Pre-release Checklist](#pre-release-checklist)
   - [License](#license)
   - [References](#references)
 
@@ -20,7 +20,7 @@ Contents
      1. `device_state_t begin()` function.
      2. `DeviceConfiguration * configuration()` getter.
 
-## Library Commit Checklist
+## Pre-release Checklist
 
   1. All decleration (.h) files have `header guards` consistent with the file name. Format to use is `MY_FILE_NAME_H_`.
   3. Check all debug flags have been commented out.
