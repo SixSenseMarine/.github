@@ -5,7 +5,7 @@ Contents
 - [  **6-Sense Systems**](#--6-sense-systems)
   - [Developer Guidelines](#developer-guidelines)
     - [Style Guide](#style-guide)
-    - [Pre-release Checklist](#pre-release-checklist)
+    - [Pull-request Checklist](#pull-request-checklist)
     - [Device Library Checklist](#device-library-checklist)
   - [Code Example](#code-example)
   - [License](#license)
@@ -38,36 +38,36 @@ The following naming conventions are used:
 
 **Code Documentation**
 
-* Code must be fully documented in [<span style="text-decoration: underline">Doxy,gen</span>](https://www.doxygen.nl/) compatible style to allow generation of API documentation.
+* Code must be fully documented in [doxygen](https://www.doxygen.nl/) compatible style to allow generation of API documentation.
 * Versioning follows the [Calendar Versioning](https://calver.org/). The `CHANGELOG.md` must be maintained and shorthand dot points on code changes must be added for every version. Contributors may not use release version numbers (e.g. `1.0.1`, or `1.0.1+12`) but should use the pre-release post script, e.g. `1.0.1-3`.
 * Version numbers must always be updated in the `library.json` file.
 
-### Pre-release Checklist
+### Pull-request Checklist
 
   1. Do all decleration (.h) files have `header guards` consistent with the file name. Format to use is `MY_FILE_NAME_H_`?
   2. Do all files have a metadata block at the top with `@file`, `@mainpage`, `intro_sec_Introduction`, `author` and `license` populated?
   3. Have all debug flags been commented out?
   4. Check all public / protected methods and functions:  
-     1. have been fully documented with `<span style="text-decoration: underline">Doxy,gen</span>` tags.
-     2. Have `virtual` in front of the definition.
-  5. Ensure all classes have a virtual destructor and that the implementation deletes any FreeRTOS tasks that were created.
+     1. have been fully documented with [doxygen](https://www.doxygen.nl/) tags; and
+     2. have `virtual` in front of the definition.
+  5. Ensure all classes have a virtual destructor and that the implementation deletes any `FreeRTOS` tasks that were created.
   6. Ensure the `README.md` has been updated:
-     1. Description.
-     2. No dead links.
-     3. License terms consistent.
-     4. Usage tested and updated.
+     1. is the `Description` still valied?
+     2. Check for dead links.
+     3. Check the `License` terms are correct and consistent.
+     4. Make sure the `Usage` is tested and updated.
   7. `CHANGELOG.md` updated:
-     1. New version 
-     2. Version heading include a title, e.g. "Stable release".
-  8. `library.json` updated:
-     1. `version` number updated, consistent with `CHANGELOG.md`.
-     2. `description` is still correct.
-     3. `keywords` are still correct.
-     4. `repository` git link is correct and works.
+     1. Add a new [version](https://calver.org/). 
+     2. Add a version a title, e.g. "Pre-release, breaking changes".
+  8. Make sure the `library.json` is updated:
+     1. Update the `version` number consistent with `CHANGELOG.md`.
+     2. Ensure `description` is still correct.
+     3. Ensure `keywords` are still correct.
+     4. Ensure `repository` git link is correct and works.
      5. `dependencies` have been updated, consistent with `platformio.ini`.
-     6. No license.
-  9.  Examples placed in the `/lib/YourLibrary/examples/` folder as `ino` files.
-  10. Tests placed in the `/tests/` folder.
+     6. Ensure there is no `license` section.
+  9.  Update examples in the `/lib/YourLibrary/examples/` folder as `ino` files.
+  10. Update tests placed in the `/tests/` folder.
 
 ### Device Library Checklist
 
