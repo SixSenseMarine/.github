@@ -10,10 +10,12 @@ Contents
 
 ## Device Library Checklist
 
-  1. Add `SixSense` namespace around all classes, structs and enums.
-  2. Add `static String toString(your_enum_t enumVal)` extension functions to all `enum` objects but place them in the `ext` namespace.
-  3. Add `DeviceConfiguration` class for the `Device`.
-  4. `Device` class declarations must include:
+  1. `platformio.ini` has [https://github.com/6SenseSystems/Device.git](https://github.com/6SenseSystems/Device.git) in the `lib_deps` section.
+  2. Run a `Full clean` to rebuild the `/pio/libdeps/` folders.
+  3. Add `SixSense` namespace around all classes, structs and enums.
+  4. Add `static String toString(your_enum_t enumVal)` extension functions to all `enum` objects but place them in the `ext` namespace.
+  5. Add `DeviceConfiguration` class for the `Device`.
+  6. `Device` class declarations must include:
      1. `device_state_t begin()` function.
      2. `DeviceConfiguration * configuration()` getter.
 
