@@ -28,9 +28,12 @@ Contents
      1. New version 
      2. Version heading include a title, e.g. "Stable release".
   3. `library.json` updated:
-     1. Version number.
-     2. Dependencies.
-     3. No license.
+     1. `version` number updated, consistent with `CHANGELOG.md`.
+     2. `description` is still correct.
+     3. `keywords` are still correct.
+     4. `repository` git link is correct and works.
+     5. `dependencies` have been updated, consistent with `platformio.ini`.
+     6. No license.
   4. Examples placed in the `/lib/YourLibrary/examples/` folder as `ino` files.
   5. Tests placed in the `/tests/` folder.
 
