@@ -48,7 +48,7 @@ The following naming conventions are used:
   2. Do all files have a metadata block at the top with `@file`, `@mainpage`, `intro_sec_Introduction`, `author` and `license` populated?
   3. Have all debug flags been commented out?
   4. Check all public / protected methods and functions:  
-     1. have been fully documented with `doxygen` tags.
+     1. have been fully documented with `<span style="text-decoration: underline">Doxy,gen</span>` tags.
      2. Have `virtual` in front of the definition.
   5. Ensure all classes have a virtual destructor and that the implementation deletes any FreeRTOS tasks that were created.
   6. Ensure the `README.md` has been updated:
