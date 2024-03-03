@@ -9,18 +9,18 @@ Contents
 
 ## Library Commit Checklist
 
-  1. `README.md` has been updated.
-     1. Description
-     2. No dead links
-     3. License terms consistent
-     4. Usage tested and updated
-  2. `CHANGELOG.md` updated
+  1. `README.md` has been updated:
+     1. Description.
+     2. No dead links.
+     3. License terms consistent.
+     4. Usage tested and updated.
+  2. `CHANGELOG.md` updated:
      1. New version 
-     2. Version heading include a title, e.g. "Stable release"
+     2. Version heading include a title, e.g. "Stable release".
   3. `library.json` updated:
-     1. Version number
-     2. Dependencies
-     3. No license
+     1. Version number.
+     2. Dependencies.
+     3. No license.
 
 ## License
 
