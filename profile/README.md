@@ -60,12 +60,12 @@ The following naming conventions are used:
      1. Add a new [version](https://calver.org/). 
      2. Add a version a title, e.g. "Pre-release, breaking changes".
   8. Make sure the `library.json` is updated:
-     1. Update the `version` number consistent with `CHANGELOG.md`.
-     2. Ensure `description` is still correct.
-     3. Ensure `keywords` are still correct.
-     4. Ensure `repository` git link is correct and works.
-     5. `dependencies` have been updated, consistent with `platformio.ini`.
-     6. Ensure there is no `license` section.
+     1. `version` number consistent with `CHANGELOG.md`;
+     2. `description` is still correct;
+     3. `keywords` are still correct;
+     4. `repository` git link is correct and works;
+     5. `dependencies` have been updated, consistent with `platformio.ini`; and
+     6. there is no `license` section.
   9.  Update examples in the `/lib/YourLibrary/examples/` folder as `ino` files.
   10. Update tests placed in the `/tests/` folder.
 
