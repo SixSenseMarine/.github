@@ -1,7 +1,6 @@
 # [![Github Repo](https://github.com/6SenseSystems/.github/blob/main/.img/LOGO_24.png)](https://github.com/6SenseSystems)  **6-Sense Systems**
 
-
-Contents
+**Contents**
 - [  **6-Sense Systems**](#--6-sense-systems)
   - [Developer Guidelines](#developer-guidelines)
   - [Style Guide](#style-guide)
