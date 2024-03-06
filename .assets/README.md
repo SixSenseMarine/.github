@@ -1,3 +1,0 @@
-<!--
-Place all assets here.
--->
