@@ -1,4 +1,4 @@
-# [![Github Repo](https://github.com/6SenseSystems/.github/blob/main/.img/LOGO_24.png)](https://github.com/6SenseSystems)  **6-Sense Systems**
+# [![Github Repo](https://github.com/SixSenseMarine/.github/blob/main/.img/LOGO_24.png)](https://github.com/SixSenseMarine)  **6-Sense Systems**
 
 **Contents**
 - [  **6-Sense Systems**](#--6-sense-systems)
@@ -17,11 +17,11 @@
 
 ## Developer Guidelines
 
-The [6-Sense Systems](https://github.com/6SenseSystems) repositories are not open-source but subject to the [license terms](https://github.com/6SenseSystems/.github/blob/main/profile/LICENSE.md) unless expressly noted otherwise. *Please secure the IP that you download and do not share it unless permission has been obtained.*
+The [6-Sense Systems](https://github.com/SixSenseMarine) repositories are not open-source but subject to the [license terms](https://github.com/SixSenseMarine/.github/blob/main/profile/LICENSE.md) unless expressly noted otherwise. *Please secure the IP that you download and do not share it unless permission has been obtained.*
 
-All these repositories form part of commercial products and development of the codebase must contribute towards the commercial objectives and the feature roadmap of the [6-Sense Systems](https://github.com/6SenseSystems) product manager(s). Pull requests will only be considered if they are on the approved product backlog. *Before forking any repository and starting work on it, approval must be obtained from the administrator for the new features or changes.*
+All these repositories form part of commercial products and development of the codebase must contribute towards the commercial objectives and the feature roadmap of the [6-Sense Systems](https://github.com/SixSenseMarine) product manager(s). Pull requests will only be considered if they are on the approved product backlog. *Before forking any repository and starting work on it, approval must be obtained from the administrator for the new features or changes.*
 
-Contributors to the [6-Sense Systems](https://github.com/6SenseSystems) codebase should follow these guidelines to ensure that the codebase remains consistent. 
+Contributors to the [6-Sense Systems](https://github.com/SixSenseMarine) codebase should follow these guidelines to ensure that the codebase remains consistent. 
 
 ## Style Guide
 
@@ -31,7 +31,7 @@ The style guidelines below should be implemented. An example of code that confor
 
 The following guidelines must be followed in setting up a project or creating new code files:
 
-* The [PlatformIO](https://platformio.org/) project structure must be used for all libraries. When starting a new library, us the 6-Sense Systems [PioTemplate.h](https://github.com/6SenseSystems/PioTemplate/blob/main/lib/PioTemplate/include/PioTemplate.h).
+* The [PlatformIO](https://platformio.org/) project structure must be used for all libraries. When starting a new library, us the 6-Sense Systems [PioTemplate.h](https://github.com/SixSenseMarine/PioTemplate/blob/main/lib/PioTemplate/include/PioTemplate.h).
 * All classes must have seperate declaration files in the `/lib/MyLibrary/include/` folder with the definition in the `/lib/MyLibrary/src/` folder.
 * Each class, struct and enum must have its own declaration file (`MyClass.h`) and a definition file (`MyClass.cpp`) for implentation.
 
@@ -89,7 +89,7 @@ Please use the checklists below before commening work as they will be applied du
 
 All libraries that provide an interface with another device and/or peripheral should implement the `SixSense::Device` and `SixSense::DeviceConfiguration` interfaces. See the [example below](#code-example).
 
-  1. Ensure that `platformio.ini` has [https://github.com/6SenseSystems/Device.git](https://github.com/6SenseSystems/Device.git) in the `lib_deps` section.
+  1. Ensure that `platformio.ini` has [https://github.com/SixSenseMarine/SixSense.git](https://github.com/SixSenseMarine/SixSense.git) in the `lib_deps` section.
   2. Run a `Full clean` to rebuild the `/pio/libdeps/` folders.
   2. Do not add `#include <Arduino.h>` to your header files.  It is included by the `Device.h` header file.
   3. Add `SixSense` namespace around all classes, structs and enums.
@@ -119,14 +119,14 @@ A sample class declaration is shown below:
  * 
  * @section author Author
  *
- * Gerhard Malan for GM Consolidated Holdings Pty Ltd.
+ * Gerhard Malan for Six Sense Marine Pty Ltd.
  *
  * @section license License
  * 
- * Copyright 2024, GM Consolidated Holdings Pty Ltd, ALL RIGHTS 
+ * Copyright 2024, Six Sense Marine Pty Ltd, ALL RIGHTS 
  * RESERVED. License terms available at:
  * 
- * https://github.com/6SenseSystems/.github/blob/main/profile/LICENSE.md)
+ * https://github.com/SixSenseMarine/.github/blob/main/profile/LICENSE.md)
  * 
  */
 
@@ -194,13 +194,13 @@ public:
 
 ## License
 
-*GM Consolidated Holdings Pty Ltd* retains ownership of the contents of this repository and the copyright, and other intellectual property rights of whatever nature, including any modifications made to the repository contents.
+*Six Sense Marine Pty Ltd* retains ownership of the contents of this repository and the copyright, and other intellectual property rights of whatever nature, including any modifications made to the repository contents.
 
-All 6-Sense Systems repositories are Copyright 2024, *GM Consolidated Holdings Pty Ltd*, ALL RIGHTS RESERVED, and subject to the [license terms](https://github.com/6SenseSystems/.github/blob/main/profile/LICENSE.md) unless expressly noted otherwise.
+All 6-Sense Systems repositories are Copyright 2024, *Six Sense Marine Pty Ltd*, ALL RIGHTS RESERVED, and subject to the [license terms](https://github.com/SixSenseMarine/.github/blob/main/profile/LICENSE.md) unless expressly noted otherwise.
  
 
 ## References
-* [PioTemplate repo on github](https://github.com/6SenseSystems/PioTemplate)
+* [PioTemplate repo on github](https://github.com/SixSenseMarine/PioTemplate)
 * [Calendar Versioning](https://calver.org/)
 * [<span style="text-decoration: underline">Doxy,gen</span>](https://www.doxygen.nl/)
 * [Programming Naming Conventions – Camel, Snake, Kebab, and Pascal Case Explained](https://www.freecodecamp.org/news/programming-naming-conventions-explained/)

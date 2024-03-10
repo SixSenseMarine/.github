@@ -1,9 +1,9 @@
-# [![Github Repo](https://github.com/6SenseSystems/.github/blob/main/.img/LOGO_24.png)](https://github.com/6SenseSystems)  GM Consolidated Holdings Pty Ltd License Agreement
+# [![Github Repo](https://github.com/SixSenseMarine/.github/blob/main/.img/LOGO_24.png)](https://github.com/SixSenseMarine)  Six Sense Marine Pty Ltd License Agreement
 
 This License governs the `Licensee`'s acquisition and use of the `IP`. Please read this License carefully before acquiring the `IP` . By aquiring the `IP`, the `Licensee` agrees to the terms of this License.
 
 **Contents**
-- [  GM Consolidated Holdings Pty Ltd License Agreement](#--gm-consolidated-holdings-pty-ltd-license-agreement)
+- [  Six Sense Marine Pty Ltd License Agreement](#--gm-consolidated-holdings-pty-ltd-license-agreement)
   - [Definitions](#definitions)
   - [Authority of the `Licensee` to Act](#authority-of-the-licensee-to-act)
   - [License](#license)
@@ -28,7 +28,7 @@ This License governs the `Licensee`'s acquisition and use of the `IP`. Please re
 * *Confidential Information* - any and all information and `IP` disclosed by the `Licensor` to the `Licensee`, whether orally, in writing, or in any other form, that is designated as confidential or would be reasonably understood to be confidential given the nature of the information and the circumstances of disclosure. `Confidential Information` may include, but is not limited to, business plans, financial information, trade secrets, customer lists, technical data, code repositories, product prototypes and proprietary know-how.
 * *IP* - software, hardware and any and all intellectual property, including but not limited to inventions, patents, trademarks, copyrights, trade secrets, and any 
 related rights or assets (collectively, the "IP") acquired directly from the `Licensor` or indirectly through a `Reseller` or any other third party.
-* *Licensor* - GM Consolidated Holdings Pty Ltd, a private company incorporated in Australia.
+* *Licensor* - Six Sense Marine Pty Ltd, a private company incorporated in Australia.
 * *Licensee* - person or legal entity acquiring the `IP`.
 * *Reseller* - a `Licensor` authorized reseller, distributor or supplier.
 
