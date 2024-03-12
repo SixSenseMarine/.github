@@ -87,17 +87,17 @@ Please use the checklists below before commening work as they will be applied du
 
 ### Device Library Checklist
 
-All libraries that provide an interface with another device and/or peripheral should implement the `SixSense::Device` and `SixSense::DeviceConfiguration` interfaces. See the [example below](#code-example).
+All libraries that provide an interface with another device and/or peripheral should implement the `SixSense::Device` and `SixSense::iConfiguration` interfaces. See the [example below](#code-example).
 
   1. Ensure that `platformio.ini` has [https://github.com/SixSenseMarine/SixSense.git](https://github.com/SixSenseMarine/SixSense.git) in the `lib_deps` section.
   2. Run a `Full clean` to rebuild the `/pio/libdeps/` folders.
   2. Do not add `#include <Arduino.h>` to your header files.  It is included by the `Device.h` header file.
   3. Add `SixSense` namespace around all classes, structs and enums.
   4. Add `static String toString(your_enum_t enumVal)` extension functions to all `enum` objects but place them in the `ext` namespace.
-  5. Add `DeviceConfiguration` class for the `Device`.
+  5. Add `iConfiguration` class for the `Device`.
   6. `Device` class declarations must include:
      1. `device_state_t begin()` function.
-     2. `DeviceConfiguration * configuration()` getter.
+     2. `iConfiguration * configuration()` getter.
 
 
 ## Code Example
@@ -119,11 +119,11 @@ A sample class declaration is shown below:
  * 
  * @section author Author
  *
- * Gerhard Malan for Six Sense Marine Pty Ltd.
+ * Gerhard Malan for GM Consolidated Holdings Pty Ltd.
  *
  * @section license License
  * 
- * Copyright 2024, Six Sense Marine Pty Ltd, ALL RIGHTS 
+ * Copyright 2024, GM Consolidated Holdings Pty Ltd, ALL RIGHTS 
  * RESERVED. License terms available at:
  * 
  * https://github.com/SixSenseMarine/.github/blob/main/profile/LICENSE.md)
@@ -194,9 +194,9 @@ public:
 
 ## License
 
-*Six Sense Marine Pty Ltd* retains ownership of the contents of this repository and the copyright, and other intellectual property rights of whatever nature, including any modifications made to the repository contents.
+*GM Consolidated Holdings Pty Ltd* retains ownership of the contents of this repository and the copyright, and other intellectual property rights of whatever nature, including any modifications made to the repository contents.
 
-All 6-Sense Systems repositories are Copyright 2024, *Six Sense Marine Pty Ltd*, ALL RIGHTS RESERVED, and subject to the [license terms](https://github.com/SixSenseMarine/.github/blob/main/profile/LICENSE.md) unless expressly noted otherwise.
+All 6-Sense Systems repositories are Copyright 2024, *GM Consolidated Holdings Pty Ltd*, ALL RIGHTS RESERVED, and subject to the [license terms](https://github.com/SixSenseMarine/.github/blob/main/profile/LICENSE.md) unless expressly noted otherwise.
  
 
 ## References
