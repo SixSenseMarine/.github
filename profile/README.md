@@ -1,7 +1,7 @@
-# [![Github Repo](https://github.com/SixSenseMarine/.github/blob/main/.img/LOGO_24.png)](https://github.com/SixSenseMarine)  **6-Sense Systems**
+# [![Github Repo](https://github.com/SixSenseMarine/.github/blob/main/.img/LOGO_24.png)](https://github.com/SixSenseMarine)  **Six Sense Marine**
 
 **Contents**
-- [  **6-Sense Systems**](#--6-sense-systems)
+- [  **Six Sense Marine**](#--6-sense-systems)
   - [Developer Guidelines](#developer-guidelines)
   - [Style Guide](#style-guide)
     - [Folders and Files](#folders-and-files)
@@ -17,11 +17,11 @@
 
 ## Developer Guidelines
 
-The [6-Sense Systems](https://github.com/SixSenseMarine) repositories are not open-source but subject to the [license terms](https://github.com/SixSenseMarine/.github/blob/main/profile/LICENSE.md) unless expressly noted otherwise. *Please secure the IP that you download and do not share it unless permission has been obtained.*
+The [Six Sense Marine](https://github.com/SixSenseMarine) repositories are not open-source but subject to the [license terms](https://github.com/SixSenseMarine/.github/blob/main/profile/LICENSE.md) unless expressly noted otherwise. *Please secure the IP that you download and do not share it unless permission has been obtained.*
 
-All these repositories form part of commercial products and development of the codebase must contribute towards the commercial objectives and the feature roadmap of the [6-Sense Systems](https://github.com/SixSenseMarine) product manager(s). Pull requests will only be considered if they are on the approved product backlog. *Before forking any repository and starting work on it, approval must be obtained from the administrator for the new features or changes.*
+All these repositories form part of commercial products and development of the codebase must contribute towards the commercial objectives and the feature roadmap of the [Six Sense Marine](https://github.com/SixSenseMarine) product manager(s). Pull requests will only be considered if they are on the approved product backlog. *Before forking any repository and starting work on it, approval must be obtained from the administrator for the new features or changes.*
 
-Contributors to the [6-Sense Systems](https://github.com/SixSenseMarine) codebase should follow these guidelines to ensure that the codebase remains consistent. 
+Contributors to the [Six Sense Marine](https://github.com/SixSenseMarine) codebase should follow these guidelines to ensure that the codebase remains consistent. 
 
 ## Style Guide
 
@@ -31,7 +31,7 @@ The style guidelines below should be implemented. An example of code that confor
 
 The following guidelines must be followed in setting up a project or creating new code files:
 
-* The [PlatformIO](https://platformio.org/) project structure must be used for all libraries. When starting a new library, us the 6-Sense Systems [PioTemplate.h](https://github.com/SixSenseMarine/PioTemplate/blob/main/lib/PioTemplate/include/PioTemplate.h).
+* The [PlatformIO](https://platformio.org/) project structure must be used for all libraries. When starting a new library, us the Six Sense Marine [PioTemplate.h](https://github.com/SixSenseMarine/PioTemplate/blob/main/lib/PioTemplate/include/PioTemplate.h).
 * All classes must have seperate declaration files in the `/lib/MyLibrary/include/` folder with the definition in the `/lib/MyLibrary/src/` folder.
 * Each class, struct and enum must have its own declaration file (`MyClass.h`) and a definition file (`MyClass.cpp`) for implentation.
 
@@ -196,7 +196,7 @@ public:
 
 *GM Consolidated Holdings Pty Ltd* retains ownership of the contents of this repository and the copyright, and other intellectual property rights of whatever nature, including any modifications made to the repository contents.
 
-All 6-Sense Systems repositories are Copyright 2024, *GM Consolidated Holdings Pty Ltd*, ALL RIGHTS RESERVED, and subject to the [license terms](https://github.com/SixSenseMarine/.github/blob/main/profile/LICENSE.md) unless expressly noted otherwise.
+All Six Sense Marine repositories are Copyright 2024, *GM Consolidated Holdings Pty Ltd*, ALL RIGHTS RESERVED, and subject to the [license terms](https://github.com/SixSenseMarine/.github/blob/main/profile/LICENSE.md) unless expressly noted otherwise.
  
 
 ## References
