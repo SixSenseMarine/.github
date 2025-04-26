@@ -1,4 +1,4 @@
-# [![Github Repo](https://github.com/SixSenseMarine/.github/blob/main/.img/LOGO_24.png)](https://github.com/SixSenseMarine)  **Six Sense Marine**
+# [![Github Repo](https://github.com/SixSenseMarine/.github/blob/main/.img/LOGO_24.png)](https://github.com/SixSenseMarine)  **SixSense Marine**
 
 **Contents**
 - [  **Six Sense Marine**](#--6-sense-systems)
